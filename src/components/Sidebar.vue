@@ -12,6 +12,12 @@
       <li>
         <router-link :to="{ name: 'Vuetify' }">Vuetify</router-link>
       </li>
+      <li>
+        <router-link :to="{ name: 'YupPage' }">Yup</router-link>
+      </li>
+      <li>
+        <router-link :to="{ name: 'YupVuePage' }">Yup Vue</router-link>
+      </li>
     </ul>
   </div>
 </template>
