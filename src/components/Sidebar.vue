@@ -18,6 +18,12 @@
       <li>
         <router-link :to="{ name: 'YupVuePage' }">Yup Vue</router-link>
       </li>
+      <li>
+        <router-link :to="{ name: 'UserList' }">User List</router-link>
+      </li>
+      <li>
+        <router-link :to="{ name: 'StoreUserList' }">Store User List</router-link>
+      </li>
     </ul>
   </div>
 </template>

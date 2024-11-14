@@ -6,6 +6,8 @@ import Vuetify from "@/pages/Vuetify.vue";
 import ElementPlus from "@/pages/ElementPlus.vue";
 import YupPage from "@/pages/YupPage.vue";
 import YupVuePage from "@/pages/YupVuePage.vue";
+import UserList from "@/pages/UserList.vue";
+import StoreUserList from "@/pages/StoreUserList.vue";
 
 const routes = [
   {
@@ -47,6 +49,18 @@ const routes = [
     path: "/yup-vue",
     component: YupVuePage,
     name: "YupVuePage",
+    meta: { layout: "default" },
+  },
+  {
+    path: "/users",
+    component: UserList,
+    name: "UserList",
+    meta: { layout: "default" },
+  },
+  {
+    path: "/store-users",
+    component: StoreUserList,
+    name: "StoreUserList",
     meta: { layout: "default" },
   },
   {
